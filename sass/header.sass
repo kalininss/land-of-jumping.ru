@@ -1,0 +1,111 @@
+@import "bourbon"
+@import "_fonts.sass"
+@import "_vars.sass"
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: $t-bold
+	overflow-x: hidden
+	color: $c-common
+
+.hidden
+	display: none
+
+.main-header
+	background-image: url(img/bg-header2up.jpg)
+	background-size: cover
+	background-position: top
+	padding-bottom: 140px
+	background-repeat: no-repeat
+	background-color: #6896CA
+h1
+	font-size: 54px
+	font-family: $h-bold
+	line-height: 1.3
+	margin-top: 230px
+	margin-bottom: 0.3em
+h2
+	font-family: $h-sbold
+	font-size: 38px
+h3
+	font-size: 20px
+	font-family: $h-sbold
+
+h1, h2, h3, h4
+	color: #fff
+	text-transform: uppercase
+a
+	color: #fff
+	text-decoration: underline
+
+	&:hover
+		color: $c-active
+.i
+	background-image: url(img/sprite.png)
+	display: inline-block
+.i-logo
+	width: 180px
+	height: 91px
+	position: absolute
+	top: 37px
+
+.main-header__hgroup
+	display: table
+	height: 100%
+	width: 100%
+.hgroup__inner
+	display: table-cell
+	vertical-align: middle
+.header__col
+.btn
+	background: $c-active
+	padding: 15px 80px
+	text-transform: uppercase
+	color: #fff
+	font-family: $t-bold
+	display: inline-block
+a.btn
+	text-decoration: none
+	transition: 0.2s
+	border: 1px solid $c-active
+	&:hover
+		color: $c-active
+		background: #fff
+	&:focus
+		color: $c-active
+.btn_circle
+	border-radius: 20px
+.main-header__btn
+	margin-top: 20px
+.slide-text
+	background: #e1e1e1
+	padding: 50px 100px
+	width: 90%
+	margin: 0 5%
+.slide-photo
+	width: 180px
+	border-radius: 50%
+	margin: 0 auto
+	display: block
+	margin-top: 40px
+.slide-name
+	font-size: 24px
+	text-align: center
+	margin-top: 10px
+.section.section_impression,
+.section.section_action
+	padding-bottom: 0
+.slide-triangle
+	position: absolute
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #e1e1e1;
+	left: 50%
+	margin-left: -15px
+	margin-top: -1px
+

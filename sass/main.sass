@@ -1,0 +1,298 @@
+@import "bourbon"
+@import "_vars.sass"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+//Custom Styles Here
+.greyline
+	background-color: #e1e1e1
+	position: absolute
+	width: 100%
+	height: 70px
+	z-index: 0
+	left: 0
+	right: 0
+	top: 90px
+.hfigure h2
+	margin: 0
+	padding: 15px 75px
+	display: inline-block
+	position: relative
+	z-index: 2
+.hfigure
+	background: $c-active
+	display: inline-block
+	position: relative
+	z-index: 1
+	margin-bottom: 50px
+.section_white
+	padding: 80px 0
+.section
+	position: relative
+.col_h
+	text-align: center
+.i-map-link
+	background-position: 0 -91px
+	width: 33px
+	height: 33px
+	margin: 6px
+.object__box
+	position: absolute
+	width: 45px
+	height: 45px
+	top: 20px
+	right: 0
+	background-color: $c-active
+.object
+	position: relative
+.object__img
+	position: relative
+.object__img__img
+	width: 100%
+.object__text
+	text-transform: uppercase
+	color: #fff
+	text-align: center
+	position: absolute
+	left: 0
+	right: 0
+	bottom: 12px
+	font-size: 18px
+
+.object__rows
+	padding: 0 15px
+	color: #333
+	font-family: $t-bold
+	text-transform: uppercase
+	.row
+		background: #EBEBEB
+		border-bottom: 1px solid #D2D2D2
+		line-height: 50px
+	.col-xs-6:nth-child(2n)
+		text-align: right
+.i-height
+	width: 25px
+	height: 25px
+	background-position: 0 -124px
+	vertical-align: middle
+	margin-right: 10px
+.i-date
+	width: 25px
+	height: 25px
+	background-position: 0 -174px
+	vertical-align: middle
+	margin-right: 10px
+.i-time
+	width: 25px
+	height: 25px
+	background-position: 0 -224px
+	vertical-align: middle
+	margin-right: 10px
+.i-ruble
+	width: 25px
+	height: 25px
+	background-position: -55px -174px
+	vertical-align: middle
+	margin-right: 10px
+.btn_block
+	padding-left: 15px
+	padding-right: 15px
+	display: block
+	text-align: center
+a.btn_lightbox
+	background: #EBEBEB
+	border: none
+	color: $c-common
+	&:hover, &:focus
+		color: $c-active
+		border: none
+		background: #EBEBEB
+		text-decoration: none
+.text_dashed
+	border-bottom: 2px dashed
+.section_before
+	background-image: url(img/bg-before.jpg)
+	min-height: 100px
+	background-size: cover
+	background-position: center
+	padding: 50px 0 80px
+	color: #fff
+	p
+		font-size: 18px
+		font-family: $t-bold
+.bold
+	font-family: $t-bold
+.object__info
+	background-image: url(img/bg-lines.png)
+	padding: 20px 10px
+	color: #333333
+	text-align: center
+.action-name
+	font-size: 18px
+	font-family: $t-bold
+	text-transform: uppercase
+	margin-bottom: 10px
+.action-info
+	font-size: 15px
+	font-family: $t-sbold
+.jssora22l
+	background-image: url(img/sprite.png)
+	background-position: -41px -91px
+.jssora22r
+	background-image: url(img/sprite.png)
+	background-position: -71px -91px
+.photos
+	background: $c-active
+.photos > div
+	padding: 0
+	overflow: hidden
+	img
+		width: 100%
+		transition: 1s
+		&:hover
+			transform: scale(1.3)
+.section_photo
+	text-align: center
+	.btn
+		margin-top: 55px
+.section_form
+	background-image: url(img/bg-form-up.jpg)
+	background-size: cover
+	background-position: top center
+	padding-bottom: 80px
+	h2
+		text-align: center
+input, textarea
+	border: none
+	color: #333
+	resize: none
+	display: block
+	width: 100%
+	margin-bottom: 30px
+	padding: 11.5px 22px
+	font-family: $t-sbold
+	max-width: 555px
+input
+	margin-left: auto
+textarea
+	margin-right: auto
+input[type="submit"]
+	width: auto
+	margin-top: 20px
+	margin-bottom: 0
+	transition: all 0.1s
+	&:hover
+		background: #128844
+textarea
+	height: 126px
+.section_action
+	margin-bottom: 50px
+.callback
+	text-align: center
+.section_form h2
+	padding: 20px 0
+.section_partners
+	background: $c-active
+.footer
+	background: #252525
+	text-align: left
+	color: #fff
+	p
+		font-family: $t-sbold
+.infape
+	text-align: center
+#slider_testimonials
+	margin-bottom: -450px
+.row-sm-action
+	margin-bottom: -30px
+	& > div
+		margin-bottom: 30px
+.object
+	max-width: 360px
+	margin: auto
+.adaptive_iframe
+	position: relative
+	padding-bottom: 56.25%
+	height: 0
+	overflow:hidden
+	border: 1px solid #ccc
+	iframe, object, embed
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+#vk_groups, #vk_groups iframe
+	width: 100% !important
+
+
+
+.jssorb05
+	position: absolute
+	div
+		position: absolute
+		width: 16px
+		height: 16px
+		background: url('img/b05.png') no-repeat
+		overflow: hidden
+		cursor: pointer
+		&:hover
+			position: absolute
+			width: 16px
+			height: 16px
+			background: url('img/b05.png') no-repeat
+			overflow: hidden
+			cursor: pointer
+	.av
+		position: absolute
+		width: 16px
+		height: 16px
+		background: url('img/b05.png') no-repeat
+		overflow: hidden
+		cursor: pointer
+	div
+		background-position: -7px -7px
+		&:hover
+			background-position: -37px -7px
+	.av
+		&:hover
+			background-position: -37px -7px
+		background-position: -67px -7px
+	.dn
+		background-position: -97px -7px
+		&:hover
+			background-position: -97px -7px
+.jssora22l, .jssora22r
+	display: block
+	position: absolute
+	width: 30px
+	height: 50px
+	cursor: pointer
+	overflow: hidden
+
+//ALWAYS END
+@import "_media.sass"
+
+//Load Libs SASS
+@import "app/libs/animate/animate.sass"
